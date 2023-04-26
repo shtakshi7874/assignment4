@@ -1,0 +1,78 @@
+body{
+    background-image:url(https://images.unsplash.com/photo-1681907285194-20d95866eb6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(255, 60, 0);
+}
+legend{
+    border-width: 10px;
+    border-color: goldenrod;
+    color: crimson;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold ;
+    font-size: larger;
+    text-decoration: underline;
+}
+.boundry{
+    border-color: rgb(255, 0, 255);
+    border-width: 5px;
+}
+.main{
+    color: rgb(25, 0, 253);
+    font-size: large;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.option{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+.input-box{
+    box-sizing:border-box;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+button{
+    color: yellow;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: crimson;
+    padding: 15px 25px 15px 25px;
+    border-radius: 10px;
+}
+@media only screen and (min-width:600px) {
+    .body{
+        background-image:url(https://plus.unsplash.com/premium_photo-1680581919244-740cb8591ff6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI2fGlVSXNuVnRqQjBZfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border: 3px goldenrod;
+    }    
+    .boundry{
+        display: flex;
+        justify-content:left;
+        flex-direction: row;
+        border-color: rgb(255, 0, 255);
+        border-width: 5px;
+    }
+    .input-box{
+        box-sizing:border-box;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 4px;
+        margin: 5px;
+    }
+    .main{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .option{
+        flex-direction: column;
+    }
+}
